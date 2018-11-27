@@ -29,10 +29,10 @@ export class ContactPage {
   };
 
   logForm(form) {
-    console.log(form.value);
-    console.log(this.todo);
-    alert(this.todo.email);
-    alert(this.todo.message);
+    // console.log(form.value);
+    // console.log(this.todo);
+    // alert(this.todo.email);
+    // alert(this.todo.message);
     this.navCtrl.push(AffichemessagePage, {
       item: this.todo
     });
